@@ -4,6 +4,7 @@ export const Home = () => {
     return (
         <Fragment>
             <h1>Home</h1>
+            <p>page</p>
         </Fragment>
     )
 }

@@ -1,15 +1,22 @@
 import React from 'react'
 
 export const More = () => (
-<div class="card">
-  <div class="card-header">
-    Featured
+<div className="row game__items">
+<div className="game__item">
+    <div className="">
+        <img width="400" alt="gta" src="https://bsp.systems/public/img/37641-2018-09-21-17-25-16-header.jpg"></img>
+        <p>text</p>
+        <p></p>
+        <a href="google.ru" className="btn btn-primary">Купить</a>
+    </div>
   </div>
-  <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="google.ru" class="btn btn-primary">Go somewhere</a>
+  <div className="game__item">
+    <div className="">
+        <img width="400" alt="gta" src="https://bsp.systems/public/img/37641-2018-09-21-17-25-16-header.jpg"></img>
+        <p>text</p>
+        <p></p>
+        <a href="google.ru" className="btn btn-primary">Купить</a>
+    </div>
   </div>
 </div>
-
 )
