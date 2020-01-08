@@ -1,10 +1,15 @@
 import React, {Fragment} from 'react'
+import {Form} from '../components/form'
+import {Notes} from '../components/Notes'
 
 export const Home = () => {
     return (
         <Fragment>
-            <h1>Home</h1>
-            <p>page</p>
+            <Form />
+
+            <hr />
+
+            <Notes />
         </Fragment>
     )
 }
